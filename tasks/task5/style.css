@@ -1,0 +1,43 @@
+.message-input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.message-input {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.send-button {
+  margin-left: 20px;
+}
+
+.geo-button {
+  margin-left: 20px;
+}
+
+.chat-messages {
+  height: 300px;
+  width: 100%;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.message {
+  margin-bottom: 5px;
+}
+
+.message.me:nth-child(1) {
+  margin-top: 20px;
+}
+
+.message.me {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.message.server {
+  text-align: left;
+  margin-left: 30px;
+}
